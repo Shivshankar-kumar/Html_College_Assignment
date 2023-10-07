@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body bgcolor="#FF5733 ">
+    <fieldset>
+        <legend align="center"><font size="5"><b>Registration Form</b></font></legend>
+        <form name="myform" action="abc.php" method="post">
+    <lable for="firstname">Firstname:"*"</lable>
+<br>
+<input type="text" size="100%" name="fisrtName" maxlength="25" placeholder="firstname">
+<br>
+<lable for="middlename">Middlename:</lable>
+<br>
+<input type="text" size="100%" name="middleName" maxlength="25">
+<br>
+<lable for="lastname">Lastname:</lable>
+<br>
+<input type="text" size="100%" name="lastname" maxlength="25" placeholder="lastname">
+<br>
+<lable for="name">DOB</lable>
+<br>
+<input type="date" size="100%" name="dob">
+<br>
+<lable for="mobile">Mobileno:"*"</lable>
+<br>
+<input type="text" size="100%" name="mobile" maxlength="10" placeholder="+91">
+<br>
+<lable for="email">Email:"*"</lable>
+<br>
+<input type="email" size="100%" name="email" maxlength="35" placeholder="abc@gmail.com">
+<br>
+<label for="Gender">Gender</label><br>
+<input type="radio" name="gender" value="Male"><label>Male</label>
+<input type="radio" name="gender" value="female">
+<label>Female</label>
+<br>
+<br>
+<label for="Course">Course: </label>
+<select>
+<option selected>BCA</option>
+<option>MCA</option>
+<option>Other</option>
+</select>
+<br><br>
+<address>
+<label for="address">Address</label>
+</address>
+<textarea name="summary" cols="95" rows="2" placeholder="write your address"></textarea>
+<br><br>
+<lable for="password">Createpassword:</lable>
+<br>
+<input type="password" size="100%" name="password" maxlength="25" placeholder="*******">
+<br>
+<lable for="name">Confirmpassword:</lable>
+<br>
+<input type="password" size="100%" name="cnfPassword" placeholder="*******">
+<br><br>
+<div>
+<input type="reset" value="Clear">
+<input type="submit" value="Registration">
+</div>
+</form>
+</fieldset>
+</body>
+</html>
